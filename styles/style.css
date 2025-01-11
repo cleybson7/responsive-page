@@ -165,3 +165,49 @@
         line-height: 1.5em;
     }
 }
+/* NEWSLETTER */
+.newsletter{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 5%;
+    background-color: #130400;
+
+    & h2{
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    & h3{
+        color: #fff;
+        /* margin: 2% 0 4% 0; */
+    }
+
+    & form{
+        margin-top: 2%;
+    }
+
+    & input{
+        width: 80%;
+        background-color: #130400;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 5%;
+        border-radius: 5px;
+        margin-top: 3%;
+    }
+
+    & button{
+        width: 70%;
+        background-color: #fff;
+        color: #130400;
+        padding: 3%;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 3%;
+    }
+
+}
+
+
