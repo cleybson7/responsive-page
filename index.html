@@ -19,6 +19,7 @@
     <title>NodeProp - Especializadas em serviços digitais</title>
 </head>
 <body>
+    <!-- MENU HAMBURGER -->
     <header class="cabecalho">
         <a href="index.html"><h1 class="logo">NodeProp - Especializadas em serviços digitais</h1></a>
         <button class="btn-menu"><i class="fa fa-bars fa larg"></i></button>
@@ -51,16 +52,44 @@
 
     <main class="servicos">
         <article class="servico">
+            <a href="#"><img src="img/criacoes.jpg" alt="Campanhas Publicitárias"></a>
+            <div class="inner">
+                <a href="#">Campanhas Publicitárias</a>
+                <h4>Impressos, VTs e Jingles</h4>
+                <p> Destaque-se no mercado com campanhas criativas e impactantes.
+                    Impressos, VTs e Jingles que conquistam o público-alvo.
+                    Soluções personalizadas para alavancar sua marca e aumentar suas vendas.
+                </p>
+
+            </div>
+        </article>
+        <article class="servico">
             <a href="#"><img src="img/md.jpg" alt="Marketing Digital"></a>
             <div class="inner">
                 <a href="#">Marketing Digital</a>
-                <h4>Impressos, VTs e Jingles</h4>
+                <h4>Administração de redes sociais</h4>
+                <p>
+                    Administração de redes sociais, SEO, e conteúdo de qualidade 
+                    para aumentar a visibilidade da sua marca e aumentar as vendas.
+                </p>
+            </div>
+        </article>
+        <article class="servico">
+            <a href="#"><img src="img/cs.jpg" alt="Criação de sites"></a>
+            <div class="inner">
+                <a href="#">Criação de sites</a>
+                <h4>Sites administráveis</h4>
+                <p>
+                    Sites administráveis, responsivos e seguros. 
+                    Soluções personalizadas para alavancar sua marca.
+                </p>
             </div>
         </article>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
+    <!-- Código em JQuery -->
+    <script>    
         $(".btn-menu").click(function(){
             $(".menu").show();
         });
