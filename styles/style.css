@@ -46,16 +46,21 @@
 
     & li{
         padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    & li:first-child{
+        margin-top: 20%;
+    }
+
+    & li:hover{
+        background: rgba(206,46,60,1);
     }
 
     & a{
         font-size: 2em;
         color: #fff;
         padding: 1.5%, 3%;
-    }
-
-    & a:hover{
-        border: 1px solid rgba(218,103,9,1);
     }
 
 }
@@ -66,7 +71,13 @@
     color: #fff;
     float: right;
     cursor: pointer;
-    margin: 5% 5% 0 0;
+    margin: 8% 8% 0 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-close:hover{
+    color: rgba(206,46,60,1);
+    transform: scale(0.8);
 }
 
 /* BANNER */
