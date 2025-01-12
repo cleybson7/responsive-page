@@ -111,6 +111,7 @@
 
 }
 
+/* BOTÕES DO BANNER */
 .btn{
     width: 100%;
     font-size: 1.5em;
@@ -236,6 +237,7 @@
 }
 
 /* MEDIA TYPES PARA RESPONSIVIDADE */
+/* CELULAR */
 
 @media screen and (min-width: 480px){
 
@@ -248,3 +250,103 @@
         font-size: 2.5em;
     }
 }
+
+/* MEDIA TYPES - TABLETS */
+@media screen and (min-width: 768px){
+
+    .title{
+    
+        & h2{
+            font-size: 3.5em;
+        }
+    
+        & h3{
+            font-size: 1.8em;
+        }
+    }
+    
+    .btn{
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+        padding: 2%;
+        font-size: 3em;
+    }
+
+    .btn:last-child{
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .servico{
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    .servico:nth-child(2){
+        margin-right: 0;
+    }
+
+    .newsletter{
+
+        & h2{
+            font-size: 2em;
+        }
+
+        & h3{
+            font-size: 1.5em;
+        }
+
+        & input{
+            width: 70%;
+            padding: 3%;
+            float: left;
+            margin-right: 2%;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        & button{
+            width: 25%;
+            font-size: medium;
+            font-weight: 500;
+        }
+
+    }
+} /* FIM DA MEDIA PARA TABLETS */
+
+/* MEDIA SCREEN PARA DESKTOPS */
+@media screen and (min-width: 960px) {
+    
+    .title{
+        width: 60%;
+        float: left;
+        text-align: left;
+        margin-right: 10%;
+    
+        & h2{
+            font-size: 2.4em;
+            font-weight: 800;
+        }
+    
+        & h3{
+            font-size: 1.5em;
+            font-weight: 300;
+        }
+    }
+    
+    .btn{
+        width: 28%;
+        float: right;
+        margin-top: 0;
+    }
+
+    .btn-sobre{
+        float: right;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+
+}
+
