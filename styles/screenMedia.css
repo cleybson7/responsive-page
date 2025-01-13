@@ -1,0 +1,217 @@
+/* MEDIA TYPES PARA RESPONSIVIDADE */
+/* CELULAR */
+
+@media screen and (min-width: 480px){
+
+    /* CONSERTANDO A LOGO DO INÍCIO */
+    .logo{
+        width: 214px;
+        background: url('../img/logo.png') center center/214px no-repeat;
+    }
+
+    .btn{
+        font-size: 2.5em;
+    }
+}
+
+/* MEDIA TYPES - TABLETS */
+@media screen and (min-width: 768px){
+
+    /* CORRIGINDO O BANNER */
+    .title{
+    
+        & h2{
+            font-size: 3.5em;
+        }
+    
+        & h3{
+            font-size: 1.8em;
+        }
+    }
+    
+    .btn{
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+        padding: 2%;
+        font-size: 3em;
+    }
+
+    .btn:last-child{
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    /* CORRIGINDO OS SERVIÇOS */
+    .servico{
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    .servico:nth-child(2){
+        margin-right: 0;
+    }
+
+    /* CORRRIGINDO O FORMS */
+    .newsletter{
+
+        & h2{
+            font-size: 2em;
+        }
+
+        & h3{
+            font-size: 1.5em;
+        }
+
+        & input{
+            width: 70%;
+            padding: 3%;
+            float: left;
+            margin-right: 2%;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        & button{
+            width: 25%;
+            font-size: medium;
+            font-weight: 500;
+        }
+
+    }
+} /* FIM DA MEDIA PARA TABLETS */
+
+/* MEDIA SCREEN PARA DESKTOPS */
+@media screen and (min-width: 1030px) {
+    
+    /* CORRIGINDO O BANNER */
+    .title{
+        width: 60%;
+        float: left;
+        text-align: left;
+        margin-right: 1%;
+        padding: 1%;
+    
+        & h2{
+            width: 60%;
+            font-size: 2.5em;
+            font-weight: 800;
+        }
+    
+        & h3{
+            width: 60%;
+            font-size: 2em;
+            font-weight: 300;
+        }
+    }
+
+    .buttons{
+    
+        & i{
+            float: right;
+        }
+    
+    }
+    
+    .btn{
+        width: 36%;
+        float: right;
+        margin-top: 0;
+    }
+
+    .btn-cadastrar{
+        padding: 2%;
+        margin-bottom: 2%;
+        float: right;
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .btn-sobre{
+        float: right;
+        margin-top: 2%;
+    }
+
+    /* CORRIGINDO OS SERVIÇOS */
+    .servico{
+        width: 30%;
+        margin-right: 3%;
+    }
+
+    .servico:nth-child(2){ margin-right: 3%; }
+
+    .servico:nth-child(3){ margin-right: 0; }
+
+    /* NEWSLETTER */
+    .newsletter{
+        
+        & input{
+            width: 70%;
+            font-size: large;
+            font-weight: 600;
+        }
+
+        & button{
+            width: 20%;
+            font-size: x-large;
+            font-weight: 400;
+        }
+    }
+
+    /* RODAPÉ */
+    .rodape{
+
+        & a{
+            font-size: 2.5em;
+            margin: 4%; 
+            display: inline-block;
+            transition: color 0.5s ease;
+        }
+
+    }
+
+    .copyright{ font-size: 1.5em; }
+
+}
+
+/* LARGE SCREEN */
+@media screen and (min-width: 1200px) {
+
+    .btn-menu{ display: none; }
+
+    .btn-close{ display: none;}
+
+    .menu{
+        width: 70%;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        background-color: #f5f5f5;
+        display: block;
+        position: static;
+
+        & li{
+            padding: 0;
+            margin-right: 5%;
+            float: left;
+        }
+
+        & a{
+            color: #130400;
+            font-size: 1.6em;
+            font-weight: 300;
+            transition: all 0.5s ease-in-out;
+        }
+
+        & li:hover{ background-color: #f5f5f5; transform: scale(1.2); }
+
+        & a:hover{
+            border: none;
+            color: #da6709; 
+            
+        }
+
+    }
+
+}
