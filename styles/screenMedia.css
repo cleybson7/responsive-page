@@ -83,7 +83,7 @@
 } /* FIM DA MEDIA PARA TABLETS */
 
 /* MEDIA SCREEN PARA DESKTOPS */
-@media screen and (min-width: 1030px) {
+@media screen and (min-width: 970px) {
     
     /* CORRIGINDO O BANNER */
     .title{
